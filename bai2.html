@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ví dụ 2</title>
+  </head>
+  <body>
+    <h2>Tính tổng các số từ 1 đến N</h2>
+    <div id="result"></div>
+    <script>
+      let input = prompt("Enter your number: ");
+      let sum;
+
+      for (let i = 1; i <= input; i++) {
+        sum += i;
+      }
+      document.getElementById("result").innerHTML = sum + "<br>";
+    </script>
+  </body>
+</html>
